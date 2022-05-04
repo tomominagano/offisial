@@ -1,0 +1,105 @@
+
+
+
+/* ０から４８０　スマートフォン)*/
+  @media (min-width: 0px) and (max-width: 480px) {
+	/* CSS を記載*/
+
+	body {
+		background-image: url(./image/topimagesp.jpg);
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-size: 100% auto;		
+	}
+
+	
+
+	
+	.h1{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%,-50%);
+		-webkit-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		margin:0;
+		padding:0;
+	  }
+
+	.h1 img{
+		width: 400px;
+		height: auto;
+	}
+
+	
+	
+
+	
+
+	
+}
+
+
+/* ４８１以上１０２４以下　タブレット*/
+@media (min-width: 481px) and (max-width: 1000px) {
+	/* CSS を記載*/
+	body {
+		background-image: url(./image/topimagesp.jpg);
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+	}
+
+	.h1{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%,-50%);
+		-webkit-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		margin:0;
+		padding:0;
+	  }
+
+	.h1 img{
+		width: 900px;
+		height: auto;
+	}
+
+
+
+  }
+
+
+
+/* １０２５以上　ノートパソコン、デスクトップ */
+@media (min-width: 1001px) { 
+	/* CSS を記載*/
+
+	body {
+		background-image: url(./image/topimagepc.jpg);
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+	}
+
+	.h1{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%,-50%);
+		-webkit-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		margin:0;
+		padding:0;
+	  }
+
+	.h1 img{
+		width: 1200px;
+		height: auto;
+	}
+
+
+
+
+  }
